@@ -1,3 +1,4 @@
+window.onload = function () {
 const status = document.getElementById('status');
 
 let recorder;
@@ -172,3 +173,4 @@ save.addEventListener('click', () => {
         console.log(`${a.download} save option shown`);
     }, 100);
 });
+}
